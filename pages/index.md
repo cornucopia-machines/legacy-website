@@ -16,8 +16,6 @@ The Cornucopia GrowMachine turns raised beds into smart, semi-autonomous food pr
 
 Our freemium software model serves hobby growers with a single bed and pro users managing multiple crop-dedicated beds.
 
-![GrowMachine device in the field](images/grow-machine-in-the-field.jpg)
-
 ## Key Features
 
 * Sensor-Based Irrigation – Adjusts to crop needs, mulch, and soil data — not timers.
@@ -45,3 +43,5 @@ Our freemium software model serves hobby growers with a single bed and pro users
 * **Co-founders** with hardware production, growth, or ops experience
 * **Pre-seed investors** to support hardware manufacturing, software rollout, and pilot
 * **Pilot partners** (urban farms, schools, homesteaders) for Q1 2026 deployment
+
+![GrowMachine device in the field](images/grow-machine-in-the-field.jpg)
