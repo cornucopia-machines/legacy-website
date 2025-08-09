@@ -2,10 +2,7 @@
 permalink: false
 eleventyExcludeFromCollections: true
 ---
-
 # Cornucopia GrowMachine
-
-## **Your raised beds just got a brain.**
 
 ## The problem
 

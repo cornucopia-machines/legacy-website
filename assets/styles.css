@@ -1,20 +1,14 @@
 :root{
   /* Light mode (brand palette) */
-  --bg:#ffffff;
+  --bg:#f2f5f7;
   --fg:#0b1220;
-  --muted:#4a5568;
+  --muted:#595f62;
   /* Deeper, more legible blue on light */
-  --accent:#1558ff;
-  --accent-2:#0044cc;
+  --accent:#8db477;
+  --accent-2:#a5d18b;
   --card:#f7f8fb;
   --border:#e5e7ef;
   --chip:#eef2ff;
-  /* Additional accents for colorful sections/badges */
-  --accent-green:#12b76a;
-  --accent-amber:#f59e0b;
-  --accent-purple:#7c3aed;
-  --accent-teal:#06b6d4;
-  --accent-pink:#db2777;
 }
 
 /* Respect OS preference if no user override is set early in base.njk */
@@ -23,34 +17,24 @@
     --bg:#0e1116;
     --fg:#e6edf3;
     --muted:#9aa4b2;
-    --accent:#62a8ff;
-    --accent-2:#7ec8ff;
+    --accent:#5d774f;
+    --accent-2:#2e3b26;
     --card:#121621;
     --border:#1f2430;
     --chip:#1a2030;
-    --accent-green:#34d399;
-    --accent-amber:#fbbf24;
-    --accent-purple:#a78bfa;
-    --accent-teal:#67e8f9;
-    --accent-pink:#f472b6;
   }
 }
 
 /* Explicit user-selected theme via toggle overrides everything */
 html[data-theme="dark"]{
-  --bg:#0e1116;
-  --fg:#e6edf3;
-  --muted:#9aa4b2;
-  --accent:#62a8ff;
-  --accent-2:#7ec8ff;
-  --card:#121621;
-  --border:#1f2430;
-  --chip:#1a2030;
-  --accent-green:#34d399;
-  --accent-amber:#fbbf24;
-  --accent-purple:#a78bfa;
-  --accent-teal:#67e8f9;
-  --accent-pink:#f472b6;
+    --bg:#0e1116;
+    --fg:#e6edf3;
+    --muted:#9aa4b2;
+    --accent:#5d774f;
+    --accent-2:#2e3b26;
+    --card:#121621;
+    --border:#1f2430;
+    --chip:#1a2030;
 }
 
 *{box-sizing:border-box}
