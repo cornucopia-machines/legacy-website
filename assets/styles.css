@@ -335,3 +335,28 @@ a:not(.button):focus-visible{
   outline-offset: 3px;
   border-radius: 4px;
 }
+
+/* Mobile spacing tweaks */
+@media (max-width: 600px) {
+  .container { padding: 0 14px; }
+  .header-inner { padding: 6px 0; }
+  .brand { gap: 8px; padding: 8px 0; }
+  .brand .logo { width: 24px; height: 24px; }
+  .theme-toggle { padding: 6px 10px; }
+
+  .hero { padding: 36px 0 12px; }
+  .subtitle { margin-bottom: 16px; }
+  .hero::after { background-size: min(70vmin, 520px); opacity: .22; }
+
+  .section { margin: 24px 0; }
+  .grid { gap: 12px; }
+  .card { padding: 16px; }
+
+  .kicker { padding: 4px 8px; gap: 8px; }
+  .button { padding: 10px 14px; }
+
+  .subscribe { padding: 4px; }
+  .subscribe input[type="email"] { min-width: 180px; padding: 8px; }
+
+  .site-footer .container { padding: 18px 14px; }
+}
