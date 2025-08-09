@@ -2,55 +2,46 @@
 permalink: false
 eleventyExcludeFromCollections: true
 ---
-## The problem
-
-Growing nutrient-dense organic food to supply a family or a community is labor-intensive, climate-sensitive and knowledge-dependent, especially if you want to grow several types of crops at once.
-
 ## Our Vision
 
-To build a **platform for regenerative food production** — one raised bed, tree, or animal zone at a time. Our devices represent a new consumer product category, like the Airfryer or the Instant Pot – but with a subscriber base.
+To create a platform for sustainable family and community food production, introducing a new consumer product category. The Instant Pot of food resilience – but with a loyal subscriber base and a strong product pipeline for lasting revenue.
 
-## Our solution
+## The Problem
 
-The Cornucopia GrowMachine makes families successful at growing their own food from raised bed to table by automating irrigation, fertigation, pest protection and task scheduling based on hyperlocal sensor information and a proprietary crop intelligence system, turning raised beds into smart, semi-autonomous production units. The hardware comes with a freemium software model where the subscription layer targets two different niches: hobby growers that grow many different crops in one raised bed, and pro users who plant one type of crop per bed.
+Growing nutrient-dense food is labor-intensive, climate-sensitive, and knowledge-dependent — especially when managing multiple crops in raised beds. Most solutions are either too simple, too DIY, or too complex.
+
+## Our Solution
+
+The Cornucopia GrowMachine turns raised beds into smart, semi-autonomous food production units. It automates irrigation, fertigation, pest alerts, and crop scheduling using hyperlocal sensor data and a proprietary crop-intelligence engine.
+
+Our freemium software model serves hobby growers with a single bed and pro users managing multiple crop-dedicated beds.
 
 ![GrowMachine device in the field](images/grow-machine-in-the-field.jpg)
 
-## Key features
+## Key Features
 
-* **Sensor-Based Irrigation**
-  Adapts watering based on crop-specific intelligence and hyperlocal soil measurements — not fixed timers
-
-* **Built-in Crop-Intelligence**
-  50+ vegetables with root depth, fertility, phenology, plant health and harvest timing logic
-
-* **Sensor-Based Environmental Alerts**
-  Environmental measurements suggest plant health risks such as humidity reaching levels specific to fungal diseases
-
-* **Task & Fertigation Scheduler**
-  Generates sowing, transplant, harvest, and feeding plans automatically from a bed map, OpenMeteo history and hyperlocal measurements
-
-* **Plug-and-Play Hardware**
-  Solar-powered, connected control modules built with growing food in mind
-
-* **Scalable Infrastructure**
-  Pro subscriptions support multi-bed allotments or remote farms, livestock integrations
+* Sensor-Based Irrigation – Adjusts to crop needs, mulch, and soil data — not timers.
+* Environmental Alerts – Warns of conditions linked to crop stress or disease.
+* Built-In Crop Intelligence – 50+ vegetables with root depth, fertility, and harvest logic.
+* Automates Task & Fertigation Scheduling from bed map, weather data, and live sensors.
+* Plug-and-Play Hardware – Solar-powered, connected, purpose-built for food growing.
+* Scalable Architecture – From single beds to orchards, livestock, and season extension.
+* Beginner Support – Ready to use bed plans and guided growing content
 
 ## Market Opportunity
 
 * 100M+ home gardens in EU \+ US
-* 5M+ raised beds sold yearly, a growing market
-* Water restrictions and food insecurity accelerate demand for resilient, local food systems
-* Current competitors are either **too simplistic** (lawn smart garden kits) or **too tinkerer-oriented** (IoT platforms like Sonoff, Tuya etc.), or **too complex** (industrial agrotech platforms)
+* 5M+ raised beds sold annually
+* Climate volatility and the home food movement create a perfect market inflection point
 
 ## Early Traction
 
 * 2 pilot systems deployed in Hungary since 2021
-* Up to **60% water savings**, improved crop quality, lower decision fatigue
-* Modular tech stack ready for expansion into orchard, poultry, and greenhouse automation
+* Lower decision fatigue, improved crop quality, up to 60% water savings
+* Modular tech stack ready for expansion
 
 ## Who We’re Looking For
 
-* **Experts** with prior experience in hardware-based products, early growth, and ops
-* **Pre-seed investors** to support hardware manufacturing, software rollout, and partner pilots
+* **Co-founders** with hardware production, growth, or ops experience
+* **Pre-seed investors** to support hardware manufacturing, software rollout, and pilot
 * **Pilot partners** (urban farms, schools, homesteaders) for Q1 2026 deployment
