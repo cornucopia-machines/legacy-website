@@ -62,6 +62,6 @@ The Cornucopia GrowMachine makes families successful at growing their own food f
 
 [founders@cornucopiamachines.eu](mailto:founders@cornucopiamachines.eu)
 
-[https://cornucopiamachines.eu](http://cornucopiamachines.eu)
+[https://www.cornucopiamachines.eu](https://www.cornucopiamachines.eu)
 
 Based in Budapest, Hungary

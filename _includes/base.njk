@@ -8,12 +8,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+      // Set initial theme before CSS loads to prevent flash
+      (function(){
+        try {
+          var t = localStorage.getItem('theme');
+          if (t) {
+            document.documentElement.dataset.theme = t;
+          } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.documentElement.dataset.theme = 'dark';
+          }
+        } catch (e) {}
+      })();
+    </script>
     <link rel="stylesheet" href="/assets/styles.css" />
   </head>
   <body>
     <header class="site-header">
-      <div class="container">
+      <div class="container header-inner">
         <a class="brand" href="/">Cornucopia<span>Machines</span></a>
+        <button class="theme-toggle" aria-label="Toggle dark mode" aria-pressed="false">
+          <span class="icon" aria-hidden="true">🌙</span>
+          <span class="label">Dark</span>
+        </button>
       </div>
     </header>
 
@@ -26,5 +43,6 @@
         <p>© {{ site.year }} Cornucopia Machines · Budapest, Hungary · <a href="mailto:founders@cornucopiamachines.eu">Contact</a></p>
       </div>
     </footer>
+    <script src="/assets/theme.js" defer></script>
   </body>
 </html>
