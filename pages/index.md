@@ -2,8 +2,6 @@
 permalink: false
 eleventyExcludeFromCollections: true
 ---
-# Cornucopia GrowMachine
-
 ## The problem
 
 Growing nutrient-dense organic food to supply a family or a community is labor-intensive, climate-sensitive and knowledge-dependent, especially if you want to grow several types of crops at once.
