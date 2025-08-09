@@ -52,11 +52,3 @@ The Cornucopia GrowMachine makes families successful at growing their own food f
 * **Experts** with prior experience in hardware-based products, early growth, and ops
 * **Pre-seed investors** to support hardware manufacturing, software rollout, and partner pilots
 * **Pilot partners** (urban farms, schools, homesteaders) for Q1 2026 deployment
-
-## Get in Touch
-
-[founders@cornucopiamachines.eu](mailto:founders@cornucopiamachines.eu)
-
-[https://www.cornucopiamachines.eu](https://www.cornucopiamachines.eu)
-
-Based in Budapest, Hungary
