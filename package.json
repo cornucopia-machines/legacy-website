@@ -1,0 +1,22 @@
+{
+  "name": "cornucopiamachines-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cornucopia Machines marketing site built with Eleventy",
+  "scripts": {
+    "dev": "eleventy --serve --watch",
+    "build": "eleventy"
+  },
+  "keywords": [
+    "eleventy",
+    "static-site",
+    "marketing"
+  ],
+  "author": "Cornucopia Machines",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^14.1.0"
+  }
+}

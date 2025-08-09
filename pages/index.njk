@@ -1,0 +1,22 @@
+---
+layout: base.njk
+title: {{ landing.title }}
+permalink: /
+---
+<section class="hero">
+  <div class="container">
+    <div class="kicker">Sensor-driven raised bed automation</div>
+    <h1>{{ landing.title }}</h1>
+    <p class="subtitle">{{ landing.subtitle }}</p>
+    <div class="cta">
+      <a class="button" href="mailto:founders@cornucopiamachines.eu">Get in touch</a>
+      <a class="button secondary" href="#details">Learn more</a>
+    </div>
+  </div>
+</section>
+
+<section id="details" class="section">
+  <div class="card prose">
+    {{ landing.html | safe }}
+  </div>
+</section>
