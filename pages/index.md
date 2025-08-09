@@ -14,6 +14,8 @@ To build a **platform for regenerative food production** — one raised bed, tre
 
 The Cornucopia GrowMachine makes families successful at growing their own food from raised bed to table by automating irrigation, fertigation, pest protection and task scheduling based on hyperlocal sensor information and a proprietary crop intelligence system, turning raised beds into smart, semi-autonomous production units. The hardware comes with a freemium software model where the subscription layer targets two different niches: hobby growers that grow many different crops in one raised bed, and pro users who plant one type of crop per bed.
 
+![GrowMachine device in the field](images/grow-machine-in-the-field.jpg)
+
 ## Key features
 
 * **Sensor-Based Irrigation**
