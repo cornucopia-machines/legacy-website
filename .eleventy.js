@@ -4,9 +4,11 @@
 module.exports = function (eleventyConfig) {
   // Static assets
   eleventyConfig.addPassthroughCopy("assets");
+  eleventyConfig.addPassthroughCopy("images");
   // Ensure CNAME is published for the custom domain
   eleventyConfig.addPassthroughCopy("CNAME");
   eleventyConfig.addWatchTarget("assets");
+  eleventyConfig.addWatchTarget("images");
 
   return {
     dir: {

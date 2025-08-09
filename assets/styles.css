@@ -43,11 +43,15 @@ img{max-width:100%;height:auto}
 .container{max-width:980px;margin:0 auto;padding:0 20px}
 .site-header{border-bottom:1px solid var(--border);position:sticky;top:0;background:linear-gradient(180deg, color-mix(in oklab, var(--bg) 95%, transparent), color-mix(in oklab, var(--bg) 85%, transparent));backdrop-filter:blur(8px);z-index:50}
 .header-inner{display:flex;align-items:center;justify-content:space-between;padding:8px 0}
-.brand{display:inline-block;padding:10px 0;font-weight:800;letter-spacing:.5px;color:var(--fg);text-decoration:none}
-.brand span{color:var(--accent)}
+.brand{display:inline-flex;align-items:center;gap:10px;padding:10px 0;font-weight:800;letter-spacing:.5px;color:var(--fg);text-decoration:none}
+.brand .logo{display:block;width:28px;height:28px;border-radius:6px}
+.brand-text span{color:var(--accent)}
 .theme-toggle{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--border);background:var(--card);color:var(--fg);padding:8px 12px;border-radius:999px;cursor:pointer;font-weight:600}
 .theme-toggle .icon{font-size:16px}
-.hero{padding:64px 0 24px}
+.hero{padding:64px 0 24px;position:relative;overflow:hidden}
+.hero > .container{position:relative;z-index:1}
+.hero::after{content:"";position:absolute;inset:0;background:url('/images/cornucopia-logo-no-text.png') no-repeat center;background-size:min(80vmin, 720px);opacity:.25;pointer-events:none;z-index:0;}
+html[data-theme="dark"] .hero::after{filter:invert(1) brightness(1.2);opacity:.18}
 .hero h1{font-size:42px;line-height:1.1;margin:0 0 12px}
 .subtitle{font-size:20px;color:var(--muted);margin:0 0 24px}
 .kicker{display:inline-flex;align-items:center;gap:10px;padding:6px 10px;border:1px solid var(--border);border-radius:999px;background:var(--chip);color:color-mix(in oklab, var(--accent) 20%, #000);font-weight:600;letter-spacing:.2px}
