@@ -4,8 +4,8 @@
   "private": true,
   "description": "Cornucopia Machines marketing site built with Eleventy",
   "scripts": {
-    "dev": "eleventy --serve --watch",
-    "build": "eleventy"
+    "dev": "concurrently \"tsc -w --preserveWatchOutput\" \"eleventy --serve --watch\"",
+    "build": "tsc && eleventy"
   },
   "keywords": [
     "eleventy",
@@ -16,7 +16,11 @@
   "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
+    "@types/markdown-it": "^14.1.2",
+    "@types/node": "^22.5.0",
+    "concurrently": "^9.0.0",
     "gray-matter": "^4.0.3",
-    "markdown-it": "^14.1.0"
+    "markdown-it": "^14.1.0",
+    "typescript": "^5.5.0"
   }
 }
