@@ -3,38 +3,48 @@
     --bg: #f2f5f7;
     --fg: #0b1220;
     --muted: #595f62;
-    /* Deeper, more legible blue on light */
+    /* Deeper, more legible accent on light */
     --accent: #8db477;
     --accent-2: #a5d18b;
     --card: #f7f8fb;
     --border: #e5e7ef;
     --chip: #eef2ff;
+
+    /* Dark palette tokens (single source of truth) */
+    --dark-bg: #0e1116;
+    --dark-fg: #e6edf3;
+    --dark-muted: #9aa4b2;
+    --dark-accent: #5d774f;
+    --dark-accent-2: #2e3b26;
+    --dark-card: #121621;
+    --dark-border: #1f2430;
+    --dark-chip: #1a2030;
 }
 
-/* Respect OS preference if no user override is set early in base.njk */
+/* Use OS preference to map tokens to active variables */
 @media (prefers-color-scheme: dark) {
     :root {
-        --bg: #0e1116;
-        --fg: #e6edf3;
-        --muted: #9aa4b2;
-        --accent: #5d774f;
-        --accent-2: #2e3b26;
-        --card: #121621;
-        --border: #1f2430;
-        --chip: #1a2030;
+        --bg: var(--dark-bg);
+        --fg: var(--dark-fg);
+        --muted: var(--dark-muted);
+        --accent: var(--dark-accent);
+        --accent-2: var(--dark-accent-2);
+        --card: var(--dark-card);
+        --border: var(--dark-border);
+        --chip: var(--dark-chip);
     }
 }
 
-/* Explicit user-selected theme via toggle overrides everything */
-html[data-theme="dark"] {
-    --bg: #0e1116;
-    --fg: #e6edf3;
-    --muted: #9aa4b2;
-    --accent: #5d774f;
-    --accent-2: #2e3b26;
-    --card: #121621;
-    --border: #1f2430;
-    --chip: #1a2030;
+/* Optional: when the header toggle is used, apply the same dark tokens */
+html.force-dark {
+    --bg: var(--dark-bg);
+    --fg: var(--dark-fg);
+    --muted: var(--dark-muted);
+    --accent: var(--dark-accent);
+    --accent-2: var(--dark-accent-2);
+    --card: var(--dark-card);
+    --border: var(--dark-border);
+    --chip: var(--dark-chip);
 }
 
 * {
@@ -138,10 +148,10 @@ img {
     pointer-events: none;
     z-index: 0;
 }
-html[data-theme="dark"] .hero::after {
-    filter: invert(1) brightness(1.2);
-    opacity: 0.18;
+@media (prefers-color-scheme: dark) {
+    .hero::after { filter: invert(1) brightness(1.2); opacity: 0.18; }
 }
+html.force-dark .hero::after { filter: invert(1) brightness(1.2); opacity: 0.18; }
 .hero h1 {
     font-size: 42px;
     line-height: 1.1;
