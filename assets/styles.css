@@ -112,7 +112,7 @@ img {
     border-radius: 6px;
 }
 .brand-text span {
-    color: var(--accent);
+    color: var(--fg);
 }
 .theme-toggle {
     display: inline-flex;
