@@ -38,15 +38,15 @@
       </div>
     </section>
 
-    <q-card flat class="q-mt-lg">
-      <q-card-section class="q-pt-md q-pb-sm">
+    <q-card>
+      <q-card-section>
         <img
           src="/images/grow-machine-in-the-field.jpg"
           alt="GrowMachine device in the field"
           class="image-float"
         />
-        <h4 class="q-mt-none q-mb-xs">Our Vision</h4>
-        <p class="q-mt-none">
+        <h4>Our Vision</h4>
+        <p>
           To create a platform for sustainable family and community food production,
           introducing a new consumer product category. The Instant Pot of food resilience
           &ndash; but with a loyal subscriber base and a strong product pipeline for
@@ -54,18 +54,18 @@
         </p>
       </q-card-section>
       <q-separator inset />
-      <q-card-section class="q-pt-md q-pb-sm">
-        <h4 class="q-mt-none q-mb-xs">The Problem</h4>
-        <p class="q-mt-none">
+      <q-card-section>
+        <h4>The Problem</h4>
+        <p>
           Growing nutrient-dense food is labor-intensive, climate-sensitive, and
           knowledge-dependent — especially when managing multiple crops in raised beds.
           Most solutions are either too simple, too DIY, or too complex.
         </p>
       </q-card-section>
       <q-separator inset />
-      <q-card-section class="q-pt-md q-pb-sm">
-        <h4 class="q-mt-none q-mb-xs">Our Solution</h4>
-        <p class="q-mt-none">
+      <q-card-section>
+        <h4>Our Solution</h4>
+        <p>
           The Cornucopia GrowMachine turns raised beds into smart, semi-autonomous food
           production units. It automates irrigation, fertigation, pest alerts, and crop
           scheduling using hyperlocal sensor data and a proprietary crop-intelligence
@@ -77,8 +77,8 @@
         </p>
       </q-card-section>
       <q-separator inset />
-      <q-card-section class="q-pt-md q-pb-sm">
-        <h4 class="q-mt-none q-mb-xs">Key Features</h4>
+      <q-card-section>
+        <h4>Key Features</h4>
         <ul>
           <li>
             Sensor-Based Irrigation &ndash; Adjusts to crop needs, mulch, and soil data
@@ -110,8 +110,8 @@
         </ul>
       </q-card-section>
       <q-separator inset />
-      <q-card-section class="q-pt-md q-pb-sm">
-        <h4 class="q-mt-none q-mb-xs">Market Opportunity</h4>
+      <q-card-section>
+        <h4>Market Opportunity</h4>
         <ul>
           <li>100M+ home gardens in EU + US</li>
           <li>5M+ raised beds sold annually</li>
@@ -122,8 +122,8 @@
         </ul>
       </q-card-section>
       <q-separator inset />
-      <q-card-section class="q-pt-md q-pb-sm">
-        <h4 class="q-mt-none q-mb-xs">Early Traction</h4>
+      <q-card-section>
+        <h4>Early Traction</h4>
         <ul>
           <li>2 pilot systems deployed in Hungary since 2021</li>
           <li>Lower decision fatigue, improved crop quality, up to 60% water savings</li>
@@ -131,8 +131,8 @@
         </ul>
       </q-card-section>
       <q-separator inset />
-      <q-card-section class="q-pt-md q-pb-sm">
-        <h4 class="q-mt-none q-mb-xs">Who We’re Looking For</h4>
+      <q-card-section>
+        <h4>Who We Are Looking For</h4>
         <ul>
           <li>
             <strong>Co-founders</strong> with hardware production, growth, or ops
@@ -186,6 +186,11 @@ async function onSubmit() {
 </script>
 
 <style scoped>
+h4 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+
 .form-message {
   margin-top: 6px;
   font-size: 0.9rem;
@@ -198,6 +203,7 @@ async function onSubmit() {
   border-radius: 12px;
   border: 1px solid var(--border);
   background: var(--card);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 @media (max-width: 600px) {
