@@ -35,8 +35,7 @@
 
     <q-footer bordered>
       <q-toolbar class="container">
-        © {{ year }} Cornucopia Machines · Budapest, Hungary ·
-        <a href="mailto:info@cornucopiamachines.eu">info@cornucopiamachines.eu</a>
+        © {{ year }} Cornucopia Machines · Budapest, Hungary ·&nbsp;<a href="mailto:info@cornucopiamachines.eu">info@cornucopiamachines.eu</a>
       </q-toolbar>
     </q-footer>
   </q-layout>
