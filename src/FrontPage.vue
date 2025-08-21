@@ -17,17 +17,11 @@
         </q-form>
       </div>
     </div>
-    <div>
-      <img
-        src="/images/grow-machine-in-the-field.jpg"
-        alt="GrowMachine device in the field"
-        class="responsive"
-      />
-    </div>
   </section>
 
   <q-card bordered flat class="q-mt-lg">
     <q-card-section class="q-pt-md q-pb-sm">
+      <img src="/images/grow-machine-in-the-field.jpg" alt="GrowMachine device in the field" class="device-float" />
       <h4 class="q-mt-none q-mb-xs">Our Vision</h4>
       <p class="q-mt-none">
         To create a platform for sustainable family and community food production,
@@ -136,4 +130,16 @@ async function onSubmit() {
 
 <style scoped>
 .form-message { margin-top: 6px; font-size: 0.9rem; }
+/* Float image so text wraps on larger screens */
+.device-float {
+  float: right;
+  width: min(40%, 320px);
+  margin: 4px 0 8px 16px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--card);
+}
+@media (max-width: 700px) {
+  .device-float { float: none; display: block; width: 100%; margin: 8px 0 12px; }
+}
 </style>

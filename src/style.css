@@ -81,6 +81,7 @@ body {
 	padding: 0;
 	background: var(--bg);
 	color: var(--fg);
+	font-size: 16px;
 	font-family:
 		Inter,
 		system-ui,
@@ -100,7 +101,7 @@ img {
 .container {
 	max-width: 980px;
 	margin: 0 auto;
-	padding: 0 20px;
+	padding: 0 10px;
 }
 .site-header {
 	border-bottom: 1px solid var(--border);
@@ -397,5 +398,5 @@ a:not(.button):focus-visible{
   .site-footer .container { padding: 18px 14px; }
 }
 
-/* Minimal addition so hero keeps two-column layout like before */
-.hero { display: grid; grid-template-columns: 1.1fr .9fr; gap: 24px; align-items: center; }
+/* Hero as single column; image is floated within the content now */
+.hero { display: grid; grid-template-columns: 1fr; gap: 24px; align-items: center; }
