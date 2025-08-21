@@ -38,13 +38,8 @@
       </div>
     </section>
 
-    <q-card>
+    <q-card flat>
       <q-card-section>
-        <img
-          src="/images/grow-machine-in-the-field.jpg"
-          alt="GrowMachine device in the field"
-          class="image-float"
-        />
         <h4>Our Vision</h4>
         <p>
           To create a platform for sustainable family and community food production,
@@ -65,6 +60,11 @@
       <q-separator inset />
       <q-card-section>
         <h4>Our Solution</h4>
+        <img
+          src="/images/grow-machine-in-the-field.jpg"
+          alt="GrowMachine device in the field"
+          class="image-float"
+        />
         <p>
           The Cornucopia GrowMachine turns raised beds into smart, semi-autonomous food
           production units. It automates irrigation, fertigation, pest alerts, and crop

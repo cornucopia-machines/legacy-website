@@ -1,4 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300..800&display=swap");
+
 :root {
+  --app-font: "Inter", system-ui, -apple-system, "Segoe UI", "Noto Sans", Arial, sans-serif;
+
   --bg: #f2f5f7;
   --fg: #0b1220;
   --muted: #595f62;
@@ -36,6 +40,7 @@
 }
 
 body {
+  font-family: var(--app-font);
   font-size: 16px;
 }
 
