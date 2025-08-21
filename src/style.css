@@ -36,6 +36,18 @@
 	}
 }
 
+/* Sync tokens with Quasar dark mode toggle ($q.dark adds body--dark) */
+body.body--dark {
+	--bg: var(--dark-bg);
+	--fg: var(--dark-fg);
+	--muted: var(--dark-muted);
+	--accent: var(--dark-accent);
+	--accent-2: var(--dark-accent-2);
+	--card: var(--dark-card);
+	--border: var(--dark-border);
+	--chip: var(--dark-chip);
+}
+
 /* Optional: when the header toggle is used, apply the same dark tokens */
 html.force-dark {
 	--bg: var(--dark-bg);
@@ -165,6 +177,7 @@ img {
 	.hero::after { filter: invert(1) brightness(1.2); opacity: 0.18; }
 }
 html.force-dark .hero::after { filter: invert(1) brightness(1.2); opacity: 0.18; }
+body.body--dark .hero::after { filter: invert(1) brightness(1.2); opacity: 0.18; }
 .hero h1 {
 	font-size: 42px;
 	line-height: 1.1;
@@ -202,6 +215,16 @@ html.force-dark .hero::after { filter: invert(1) brightness(1.2); opacity: 0.18;
 	border-radius: 16px;
 	padding: 20px;
 }
+/* Quasar tune-ups */
+.q-card { background: var(--card); border-color: var(--border); }
+.q-card--bordered { border: 1px solid var(--border); }
+.q-card__section { padding: 14px 16px; }
+.q-separator { background: var(--border); opacity: 1; }
+.q-list { color: var(--fg); }
+.q-item { min-height: 30px; padding: 6px 8px; }
+.q-field--standout .q-field__control { background: var(--card); }
+.q-input, .q-field__native, .q-field__label { color: var(--fg); }
+.q-btn.theme-toggle { border-color: var(--border); background: var(--card); color: var(--fg); }
 .grid {
 	display: grid;
 	gap: 16px;
