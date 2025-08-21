@@ -343,6 +343,7 @@ body.body--dark .hero::after { filter: invert(1) brightness(1.2); opacity: 0.18;
 .site-footer {
 	border-top: 1px solid var(--border);
 	margin-top: 40px;
+    margin-bottom: 100px;
 }
 .site-footer .container {
 	padding: 24px 20px;

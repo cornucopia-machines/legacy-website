@@ -28,7 +28,7 @@
       <q-page class="container">
         <front-page />
 
-        <div class="footer">
+        <div class="site-footer">
           © {{ year }} CornucopiaMachines · Budapest, Hungary ·
           <a href="mailto:info@cornucopiamachines.eu">info@cornucopiamachines.eu</a>
         </div>
