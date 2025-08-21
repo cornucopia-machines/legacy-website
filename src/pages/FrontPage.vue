@@ -148,9 +148,10 @@
         <p>
           She also wrote a
           <a href="https://www.animuscentral.hu/kertkaland-1">popular book</a>
-          on small-space farming, offering detailed guidance on what to plant, when to
-          plant it, and how to care for it. In addition, she led workshops teaching people
-          how to design and grow their own gardens.
+          on small-space farming for people just starting out with their gardens, offering
+          detailed guidance on what to plant, when to plant it, and how to care for it. In
+          addition, she led workshops teaching people how to design and grow their own
+          gardens.
         </p>
 
         <p>
