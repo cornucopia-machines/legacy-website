@@ -111,6 +111,10 @@ a:not(.button):focus-visible {
   border-radius: 4px;
 }
 
+.q-card {
+  border-radius: 10px;
+}
+
 /* Hero as single column; image is floated within the content now */
 .hero {
   display: grid;
@@ -146,7 +150,16 @@ a:not(.button):focus-visible {
   margin: 0 0 12px;
 }
 
-/* Mobile spacing tweaks */
+.image-float {
+  float: right;
+  width: min(40%, 320px);
+  margin: 4px 0 8px 16px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
 @media (max-width: 600px) {
   .container {
     padding: 0 14px;
@@ -169,6 +182,13 @@ a:not(.button):focus-visible {
   .hero::after {
     background-size: min(70vmin, 520px);
     opacity: 0.22;
+  }
+
+  .image-float {
+    float: none;
+    display: block;
+    width: 100%;
+    margin: 8px 0 12px;
   }
 
   .button {

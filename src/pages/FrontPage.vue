@@ -195,28 +195,4 @@ h4 {
   margin-top: 6px;
   font-size: 0.9rem;
 }
-
-.image-float {
-  float: right;
-  width: min(40%, 320px);
-  margin: 4px 0 8px 16px;
-  border-radius: 12px;
-  border: 1px solid var(--border);
-  background: var(--card);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-@media (max-width: 600px) {
-  .image-float {
-    float: none;
-    display: block;
-    width: 100%;
-    margin: 8px 0 12px;
-  }
-
-  .hero::after {
-    background-size: min(70vmin, 520px);
-    opacity: 0.22;
-  }
-}
 </style>
