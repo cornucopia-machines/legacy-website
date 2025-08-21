@@ -132,11 +132,55 @@
       </q-card-section>
       <q-separator inset />
       <q-card-section>
+        <h4>Who We Are</h4>
+        <img
+          src="/images/founders.jpg"
+          alt="Cornucopia Machines founders"
+          class="image-float"
+        />
+        <p>
+          <strong>Melinda</strong> has been passionate about growing her own food since
+          childhood. Fifteen years ago, she started her first farm, focusing on organic
+          practices and high-quality produce. As her passion project grew, she became the
+          supplier of microgreens and edible flowers for all five of Budapest’s
+          Michelin-starred restaurants at the time.
+        </p>
+        <p>
+          She also wrote a
+          <a href="https://www.animuscentral.hu/kertkaland-1">popular book</a>
+          on small-space farming for people just starting out with their gardens, offering
+          detailed guidance on what to plant, when to plant it, and how to care for it. In
+          addition, she led workshops teaching people how to design and grow their own
+          gardens.
+        </p>
+
+        <p>
+          <strong>Lóránt</strong> has a background in software development. He has worked
+          at various tech companies and gained experience across many aspects of software
+          product development. His skills span engineering, product development, and
+          design.
+        </p>
+        <p>
+          Over the years, he has built both web application front ends and back ends, and
+          even developed a font-rendering engine at Prezi. More recently, he worked as a
+          senior principal engineer at Gradle Inc., where he designed and shipped
+          automation tools to boost developer productivity at some of the world’s largest
+          organizations.
+        </p>
+
+        <p>
+          For the past ten years, we’ve been working together on our family farm,
+          combining our expertise in agriculture and technology to create innovative
+          solutions for our own needs. This journey led us to prototype an automated
+          growing system, which we now aim to bring to life as the Cornucopia GrowMachine.
+        </p>
+      </q-card-section>
+      <q-separator inset />
+      <q-card-section>
         <h4>Who We Are Looking For</h4>
         <ul>
           <li>
-            <strong>Co-founders</strong> with hardware production, growth, or ops
-            experience
+            <strong>Experts</strong> with hardware production, growth, or ops experience
           </li>
           <li>
             <strong>Pre-seed investors</strong> to support hardware manufacturing,
