@@ -1,14 +1,14 @@
-import { defineConfig } from 'vite';
-import path from 'node:path';
-import vue from '@vitejs/plugin-vue';
-import { quasar, transformAssetUrls } from '@quasar/vite-plugin';
+import { defineConfig } from "vite";
+import path from "node:path";
+import vue from "@vitejs/plugin-vue";
+import { quasar, transformAssetUrls } from "@quasar/vite-plugin";
 
 export default defineConfig({
   plugins: [
     vue({ template: { transformAssetUrls } }),
     quasar({
-      sassVariables: 'src/quasar-variables.sass'
-    })
+      sassVariables: "src/quasar-variables.sass",
+    }),
   ],
   server: {
     host: true,
@@ -19,12 +19,12 @@ export default defineConfig({
     allowedHosts: true,
   },
   build: {
-    outDir: 'dist',
-    assetsDir: 'assets',
+    outDir: "dist",
+    assetsDir: "assets",
   },
   resolve: {
     alias: {
-      src: path.resolve(__dirname, 'src')
-    }
-  }
+      src: path.resolve(__dirname, "src"),
+    },
+  },
 });

@@ -1,29 +1,32 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cornucopia Machines</title>
-    <meta name="description" content="Grow smarter with sensor-driven raised bed automation. Cornucopia GrowMachine.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <script>
-      (function(){
-        try{
-          var root = document.documentElement;
-          var t = localStorage.getItem('theme');
-          if(t === 'dark') root.classList.add('force-dark');
-          if(t === 'light') root.classList.add('force-light');
-        }catch(e){}
-      })();
-    </script>
-    <script defer src="https://analytics.cornucopiamachines.eu/script.js"
-      data-website-id="fe9bcb3b-c9dd-4ac6-9a0c-c7ad99a64453"
-      data-exclude-hash="true"></script>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cornucopia Machines</title>
+  <meta name="description" content="Grow smarter with sensor-driven raised bed automation. Cornucopia GrowMachine.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <script>
+    (function () {
+      try {
+        var root = document.documentElement;
+        var t = localStorage.getItem('theme');
+        if (t === 'dark') root.classList.add('force-dark');
+        if (t === 'light') root.classList.add('force-light');
+      } catch (e) { }
+    })();
+  </script>
+  <script defer src="https://analytics.cornucopiamachines.eu/script.js"
+    data-website-id="fe9bcb3b-c9dd-4ac6-9a0c-c7ad99a64453" data-exclude-hash="true"></script>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
 </html>

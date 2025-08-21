@@ -4,7 +4,10 @@
       <q-toolbar class="container">
         <q-btn flat no-caps href="#" class="brand row items-center no-wrap">
           <q-avatar square size="28px" class="q-mr-sm">
-            <img src="/images/cornucopia-logo-no-text.png" alt="Cornucopia Machines logo" />
+            <img
+              src="/images/cornucopia-logo-no-text.png"
+              alt="Cornucopia Machines logo"
+            />
           </q-avatar>
           <q-toolbar-title shrink class="q-pa-none">
             <span class="brand-text">Cornucopia<span>Machines</span></span>
@@ -38,8 +41,8 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from 'vue';
-import { useQuasar } from 'quasar';
+import { ref, onMounted } from "vue";
+import { useQuasar } from "quasar";
 import FrontPage from "./FrontPage.vue";
 
 const year = new Date().getFullYear();
@@ -47,16 +50,16 @@ const $q = useQuasar();
 const isDark = ref($q.dark.isActive);
 
 onMounted(() => {
-  const pref = localStorage.getItem('theme');
-  if (pref === 'dark') $q.dark.set(true);
-  else if (pref === 'light') $q.dark.set(false);
+  const pref = localStorage.getItem("theme");
+  if (pref === "dark") $q.dark.set(true);
+  else if (pref === "light") $q.dark.set(false);
   isDark.value = $q.dark.isActive;
 });
 
 function toggleDark() {
   $q.dark.set(!$q.dark.isActive);
   isDark.value = $q.dark.isActive;
-  localStorage.setItem('theme', isDark.value ? 'dark' : 'light');
+  localStorage.setItem("theme", isDark.value ? "dark" : "light");
 }
 </script>
 
