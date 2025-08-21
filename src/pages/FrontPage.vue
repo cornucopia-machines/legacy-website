@@ -143,7 +143,10 @@
           childhood. She started her first farm fifteen years ago, focusing on organic
           farming practices and high quality produce. As her passion project grew she
           found herself supplying all five of Budapest's Michelin-star restaurants at the
-          time with micro-greens and edible flowers. She published a
+          time with micro-greens and edible flowers.
+        </p>
+        <p>
+          She published a
           <a href="https://www.animuscentral.hu/kertkaland-1">quite popular book</a> on
           getting started with farming in small spaces with detailed instructions on what
           to plant, when to plant it, and how to care for it. She also did workshops
@@ -154,11 +157,14 @@
           <strong>Lóránt</strong> comes from a software developer background. He worked at
           various tech companies, and has experience in many aspects of software product
           development. He has a wide variety of skills as an engineer, but also some in
-          product development and design. He worked on traditional web application
-          front-ends and back-ends, and he developed a font-rendering engine at Prezi.
-          More recently he focused on automation for software developers as a senior
-          principal engineer at Gradle Inc., designing and shipping solutions to improve
-          developer productivity at the largest organizations on the planet.
+          product development and design.
+        </p>
+        <p>
+          He worked on traditional web application front-ends and back-ends, and he
+          developed a font-rendering engine at Prezi. More recently he focused on
+          automation for software developers as a senior principal engineer at Gradle
+          Inc., designing and shipping solutions to improve developer productivity at the
+          largest organizations on the planet.
         </p>
 
         <p>
