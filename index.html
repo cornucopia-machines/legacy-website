@@ -2,31 +2,28 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cornucopia Machines</title>
-  <meta name="description" content="Grow smarter with sensor-driven raised bed automation. Cornucopia GrowMachine.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
-    rel="stylesheet">
-  <script>
-    (function () {
-      try {
-        var root = document.documentElement;
-        var t = localStorage.getItem('theme');
-        if (t === 'dark') root.classList.add('force-dark');
-        if (t === 'light') root.classList.add('force-light');
-      } catch (e) { }
-    })();
-  </script>
+  <title>
+    Cornucopia Machines
+  </title>
+
+  <meta charset="utf-8" />
+  <meta name="description" content="Cornucopia Machines" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="msapplication-tap-highlight" content="no" />
+  <meta name="viewport"
+    content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width<% if (ctx.mode.cordova || ctx.mode.capacitor) { %>, viewport-fit=cover<% } %>" />
   <script defer src="https://analytics.cornucopiamachines.eu/script.js"
     data-website-id="fe9bcb3b-c9dd-4ac6-9a0c-c7ad99a64453" data-exclude-hash="true"></script>
+
+  <link rel="icon" type="image/png" sizes="128x128" href="icons/favicon-128x128.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png" />
+  <link rel="icon" type="image/ico" href="favicon.ico" />
 </head>
 
 <body>
-  <div id="app"></div>
-  <script type="module" src="/src/main.ts"></script>
+  <!-- quasar:entry-point -->
 </body>
 
 </html>
