@@ -15,11 +15,11 @@
         </q-btn>
         <q-space />
         <q-btn
-          outline
+          flat
           rounded
           dense
+          size="small"
           :icon="isDark ? 'light_mode' : 'dark_mode'"
-          :label="isDark ? 'Light' : 'Dark'"
           class="theme-toggle"
           @click="toggleDark"
           :aria-pressed="isDark"
@@ -32,7 +32,7 @@
         <front-page />
 
         <div class="site-footer">
-          © {{ year }} CornucopiaMachines · Budapest, Hungary ·
+          © {{ year }} Cornucopia Machines · Budapest, Hungary ·
           <a href="mailto:info@cornucopiamachines.eu">info@cornucopiamachines.eu</a>
         </div>
       </q-page>
