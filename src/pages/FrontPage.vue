@@ -139,39 +139,39 @@
           class="image-float"
         />
         <p>
-          <strong>Melinda</strong> has been interested in growing her own food since
-          childhood. She started her first farm fifteen years ago, focusing on organic
-          farming practices and high quality produce. As her passion project grew she
-          found herself supplying all five of Budapest's Michelin-star restaurants at the
-          time with micro-greens and edible flowers.
+          <strong>Melinda</strong> has been passionate about growing her own food since
+          childhood. Fifteen years ago, she started her first farm, focusing on organic
+          practices and high-quality produce. As her passion project grew, she became the
+          supplier of microgreens and edible flowers for all five of Budapest’s
+          Michelin-starred restaurants at the time.
         </p>
         <p>
-          She published a
-          <a href="https://www.animuscentral.hu/kertkaland-1">quite popular book</a> on
-          getting started with farming in small spaces with detailed instructions on what
-          to plant, when to plant it, and how to care for it. She also did workshops
-          teaching people how to design their own gardens.
-        </p>
-
-        <p>
-          <strong>Lóránt</strong> comes from a software developer background. He worked at
-          various tech companies, and has experience in many aspects of software product
-          development. He has a wide variety of skills as an engineer, but also some in
-          product development and design.
-        </p>
-        <p>
-          He worked on traditional web application front-ends and back-ends, and he
-          developed a font-rendering engine at Prezi. More recently he focused on
-          automation for software developers as a senior principal engineer at Gradle
-          Inc., designing and shipping solutions to improve developer productivity at the
-          largest organizations on the planet.
+          She also wrote a
+          <a href="https://www.animuscentral.hu/kertkaland-1">popular book</a>
+          on small-space farming, offering detailed guidance on what to plant, when to
+          plant it, and how to care for it. In addition, she led workshops teaching people
+          how to design and grow their own gardens.
         </p>
 
         <p>
-          Together we've been working on our family farm for the past ten years, combining
-          our expertise in agriculture and technology to create innovative solutions for
-          our own needs. This work led to the prototyping of our automated growing system
-          that we hope to turn into the Cornucopia GrowMachine product.
+          <strong>Lóránt</strong> has a background in software development. He has worked
+          at various tech companies and gained experience across many aspects of software
+          product development. His skills span engineering, product development, and
+          design.
+        </p>
+        <p>
+          Over the years, he has built both web application front ends and back ends, and
+          even developed a font-rendering engine at Prezi. More recently, he worked as a
+          senior principal engineer at Gradle Inc., where he designed and shipped
+          automation tools to boost developer productivity at some of the world’s largest
+          organizations.
+        </p>
+
+        <p>
+          For the past ten years, we’ve been working together on our family farm,
+          combining our expertise in agriculture and technology to create innovative
+          solutions for our own needs. This journey led us to prototype an automated
+          growing system, which we now aim to bring to life as the Cornucopia GrowMachine.
         </p>
       </q-card-section>
       <q-separator inset />
