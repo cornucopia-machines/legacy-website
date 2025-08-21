@@ -1,20 +1,13 @@
 {
   "name": "cornucopiamachines-site",
-  "version": "1.0.0",
   "private": true,
-  "description": "Cornucopia Machines marketing site built with Quasar (Vue 3) + Vite",
+  "description": "Cornucopia Machines site",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
-  "keywords": [
-    "eleventy",
-    "static-site",
-    "marketing"
-  ],
   "author": "Cornucopia Machines",
-  "license": "MIT",
   "devDependencies": {
     "@quasar/vite-plugin": "^1.9.1",
     "@types/node": "^22.5.0",
