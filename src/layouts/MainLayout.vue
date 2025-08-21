@@ -64,7 +64,7 @@ header {
 
 footer {
   background: var(--bg);
-  color: var(--fg);
+  color: var(--muted);
 }
 
 .q-page-container {
