@@ -139,15 +139,15 @@
           class="image-float"
         />
         <p>
-          <strong>Melinda</strong> has been passionate about growing her own food since
-          childhood. Fifteen years ago, she started her first farm, focusing on organic
-          practices and high-quality produce. As her passion project grew, she became the
-          supplier of microgreens and edible flowers for all five of Budapest’s
-          Michelin-starred restaurants at the time.
+          <a href="https://www.linkedin.com/in/doramelindatunde/" target="_blank">Melinda</a> has been
+          passionate about growing her own food since childhood. Fifteen years ago, she
+          started her first farm, focusing on organic practices and high-quality produce.
+          As her passion project grew, she became the supplier of microgreens and edible
+          flowers for all five of Budapest’s Michelin-starred restaurants at the time.
         </p>
         <p>
           She also wrote a
-          <a href="https://www.animuscentral.hu/kertkaland-1">popular book</a>
+          <a href="https://www.animuscentral.hu/kertkaland-1" target="_blank">popular book</a>
           on small-space farming for people just starting out with their gardens, offering
           detailed guidance on what to plant, when to plant it, and how to care for it. In
           addition, she led workshops teaching people how to design and grow their own
@@ -155,10 +155,10 @@
         </p>
 
         <p>
-          <strong>Lóránt</strong> has a background in software development. He has worked
-          at various tech companies and gained experience across many aspects of software
-          product development. His skills span engineering, product development, and
-          design.
+          <a href="https://www.linkedin.com/in/lorantpinter/" target="_blank">Lóránt</a> has a background
+          in software development. He has worked at various tech companies and gained
+          experience across many aspects of software product development. His skills span
+          engineering, product development, and design.
         </p>
         <p>
           Over the years, he has built both web application front ends and back ends, and
